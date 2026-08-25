@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "DataMago",
+    "slug": "datamago",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "datamago",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0c0b0a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.magiminigames.datamago"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0c0b0a"
+      },
+      "package": "com.magiminigames.datamago"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "DataMago needs photo access to build visual style kits."
+        }
+      ]
+    ]
+  }
+}
